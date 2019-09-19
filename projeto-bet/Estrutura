@@ -1,0 +1,16 @@
+MA { 
+    1º PA: NA=Over
+    2º PA: NA=Exactly
+    3º PA: NA=Under
+} 
+MA -> Mercado
+PA -> Participante
+
+type = EV {
+    SS = Placar (Ex: 2-0)
+    NA = Nome do jogo (Ex: Flamengo vs Vasco)
+}
+
+TYPE = CL {
+    NA = Soccer //Todos os resultados relacionados a futebol
+}

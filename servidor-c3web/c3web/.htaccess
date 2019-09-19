@@ -1,0 +1,34 @@
+#BUILDER-START#
+# Enable rewriting.
+#RewriteEngine on
+#Header add Vary "User-Agent"
+#Header add X-Generated "%t"
+#Options -Indexes
+#Options +FollowSymLinks
+#RewriteBase /
+#RewriteCond %{HTTP_USER_AGENT} "iphone|ipad|ipod|android|nokia|ios|opera m(ob|in)i|iemobile|symbian|samsung|sec-|htc|huawei|ericsson|sonyericsson|blackberry|motorola|sagem|kyocera|zte|kddi|docomo|j-phone|kwc|lenovo|lg|mot|softbank|nec|audiovox|alcatel|sharp|sie-|sanyo|sendo|amoi|xda|bird|benq|palm|pantech|panasonic|fly|asus-|baiduispider|googlebot-mobile|nintendo|psp|dalvik|windows ce|foma|brew|webos|fennec|netfront|teleca|obigo|vodafone|up.browser|portalmmm" [NC]
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^$ mobile_index.html
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^$ index.html
+#RewriteCond %{HTTP_USER_AGENT} "iphone|ipad|ipod|android|nokia|ios|opera m(ob|in)i|iemobile|symbian|samsung|sec-|htc|huawei|ericsson|sonyericsson|blackberry|motorola|sagem|kyocera|zte|kddi|docomo|j-phone|kwc|lenovo|lg|mot|softbank|nec|audiovox|alcatel|sharp|sie-|sanyo|sendo|amoi|xda|bird|benq|palm|pantech|panasonic|fly|asus-|baiduispider|googlebot-mobile|nintendo|psp|dalvik|windows ce|foma|brew|webos|fennec|netfront|teleca|obigo|vodafone|up.browser|portalmmm" [NC]
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^([^/]+).* mobile_$1.html [L]
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^([^/]+).* $1.html
+#BUILDER-END#
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+.foto_item{
+    width: 150px;
+    height: 200px;
+    float: left;
+    margin-right: 10px; 
+}
+.foto_item img{
+    width: 150px;
+}
+
+@media (max-width: 576px){
+    .carousel.slide{
+        height: 300px;
+    }
+    .carousel.slide img{
+        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%;
+    }
+}
